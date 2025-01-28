@@ -14,3 +14,17 @@ Este proyecto es una **Agenda de Contactos** desarrollada con **PHP**, que utili
 ```bash
 git clone https://github.com/claudioborja/agenda.git
 cd agenda
+```
+
+## Configuración de la base de datos
+
+1. Dentro de la carpeta `db` del proyecto encontrarás un archivo llamado `agenda.sql`.
+2. Importa este archivo en tu gestor de base de datos (como phpMyAdmin, DBeaver o la línea de comandos de MySQL/MariaDB).  
+   Por ejemplo, desde la línea de comandos:
+   ```bash
+   mysql -u tu_usuario -p agenda < db/agenda_db.sql
+   ```
+
+## Configuración de la base de datos
+- **Usuario Admin** (admin)
+- **Clave Admin** (admin123)
